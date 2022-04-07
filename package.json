@@ -11,16 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/lamichhanekusum01/Heropage.git"
   },
-  "git": {
-    "scripts": {
-      "pre-push": "surge --project ./dist --domain <domain name here>.surge.sh"
-    }
-  },
+  "pre-push": [
+    "upload"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lamichhanekusum01/Heropage/issues"
   },
-  "homepage": "https://github.com/lamichhanekusum01/Heropage#readme"
+  "homepage": "https://github.com/lamichhanekusum01/Heropage#readme",
+  "devDependencies": {
+    "pre-push": "^0.1.2"
+  }
 }
