@@ -1,0 +1,126 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.home{
+    height: 10vh;
+}
+.home nav {
+    display: flex;
+    justify-content: space-between ;
+    margin: 0px 120px;
+    align-items: center;
+
+}
+.home nav>div{
+    display:flex;
+    justify-content: space-around;
+    width:20%;
+}
+
+.home nav a
+{
+    display: inline-block;
+    color: #7462E0;
+    padding: 15px, 125px !important;
+}
+
+
+
+nav h1{
+    color: #7462E0;
+    
+}
+.primary{
+     background-image: url('/Image/hero.png');
+     background-repeat:no-repeat;
+     background-position:60% -70%; 
+     position: absolute;
+     background-size: contain;
+     height: 100vh;
+     width: 100vw;
+     z-index: 80;
+     top: 0;
+     left: 0;
+
+     }
+     main{
+         position: absolute;
+         height: 100vh;
+         width: 100vw;
+         
+     }
+    .right-circle{
+        
+        background:#7462E1;
+        border-radius: 50%;
+        width:80vw;
+        height:80vw;
+        margin-left:60%;
+       position:absolute;
+     }
+     .content {
+        position: absolute;
+        margin-left: 120px;
+        margin-top: 120px;
+        height: 400px;
+        width: 500px;
+    }
+    .content p{
+        color: #A4A2B2;
+        
+    }
+     .content h1{
+         font-size: 60px;
+         color: #120844;
+         margin-top: 80px;
+         margin-right: 120px;
+         line-height: 100px;
+
+     }
+     .content button
+     {
+         background-color: #7462E0;
+         border:none;
+         color: white;
+         margin-top: 20px;
+         width: 80px;
+         height: 40px;
+     }
+
+ 
+#icon
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+    position: absolute;
+    right: 18%;
+    bottom: 20%;
+    
+
+
+}
+#icon div
+{
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Icon1
+{
+ background-image: url('/Image/1.png');
+}
+.Icon2
+{
+    background-image: url('/Image/2.png');
+ }
+ .Icon3
+ {
+     background-image: url('/Image/3.png');
+ }
