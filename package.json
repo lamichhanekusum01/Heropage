@@ -7,13 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "upload": "surge --project ./ --domain kusumlamichhane.surge.sh"
   },
+  "pre-push": [
+    "upload"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lamichhanekusum01/Heropage.git"
   },
-  "pre-push": [
-    "upload"
-  ],
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
