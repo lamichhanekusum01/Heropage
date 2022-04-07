@@ -8,7 +8,6 @@
     "upload": "surge --project ./ --domain kusumlamichhane.surge.sh"
   },
   "pre-push": [
-    "upload"
   ],
   "repository": {
     "type": "git",
